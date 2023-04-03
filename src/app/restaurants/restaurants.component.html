@@ -1,7 +1,6 @@
 <!-- {{restaurants | json}} -->
-<div class="list-group">
-    <div *ngFor="let restaurant of restaurants"
-        class="list-group-item">
+<div class="list-group" fxLayout="row wrap" fxLayoutGap="30px" style="justify-content: center;">
+    <div *ngFor="let restaurant of restaurants" class="list-group-item mb-30" >
         <app-my-card [restaurant]="restaurant"></app-my-card>
     </div>
 </div>
