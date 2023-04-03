@@ -14,6 +14,6 @@ export class CucineListComponent implements OnInit{
     this.service.getCucineList()
       .subscribe(response => {
         this.cucineLists = response;
-      });
+    });
   }
 }

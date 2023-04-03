@@ -16,6 +16,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { HttpClientModule } from '@angular/common/http';
 import { CucineListComponent } from './cucine-list/cucine-list.component';
 import {MatSelectModule} from '@angular/material/select';
+import { RestaurantsComponent } from './restaurants/restaurants.component';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import {MatSelectModule} from '@angular/material/select';
     AppComponent,
     MyNavBarComponent,
     MyCardComponent,
-    CucineListComponent
+    CucineListComponent,
+    RestaurantsComponent
   ],
   imports: [
     BrowserModule,

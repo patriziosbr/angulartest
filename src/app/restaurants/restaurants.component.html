@@ -1,0 +1,7 @@
+<!-- {{restaurants | json}} -->
+<div class="list-group">
+    <div *ngFor="let restaurant of restaurants"
+        class="list-group-item">
+        <app-my-card [restaurant]="restaurant"></app-my-card>
+    </div>
+</div>

@@ -9,7 +9,7 @@ export class RestaurantsService {
    
   constructor(private httpClient: HttpClient) { }
   
-  getRestaurant(){
+  getRestaurants(){
     return this.httpClient.get(this.url);
   }
 }
