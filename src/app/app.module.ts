@@ -12,7 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
 import { MyCardComponent } from './my-card/my-card.component';
 import { MatCardModule } from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
-
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -29,6 +29,7 @@ import {MatGridListModule} from '@angular/material/grid-list';
     MatButtonModule,
     MatCardModule,
     MatGridListModule,
+    FlexLayoutModule,
     MatSlideToggleModule
   ],
   providers: [],
