@@ -13,12 +13,17 @@ import { MyCardComponent } from './my-card/my-card.component';
 import { MatCardModule } from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { HttpClientModule } from '@angular/common/http';
+import { CucineListComponent } from './cucine-list/cucine-list.component';
+import {MatSelectModule} from '@angular/material/select';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     MyNavBarComponent,
-    MyCardComponent
+    MyCardComponent,
+    CucineListComponent
   ],
   imports: [
     BrowserModule,
@@ -30,6 +35,8 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     MatCardModule,
     MatGridListModule,
     FlexLayoutModule,
+    HttpClientModule,
+    MatSelectModule,
     MatSlideToggleModule
   ],
   providers: [],
